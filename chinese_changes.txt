@@ -1,0 +1,19 @@
+   Exist language                                                                        Changes
+
+
+QMessageBox.about(self, '提示(prompt)', error_msg)                                        hint
+self.setWindowTitle("智能交通(IntelligentTraffic)-离线(OffLine)")                         Insystlabs (Offline) 
+车牌颜色                                                                                  Plate color     
+车型类型                                                                                  car type    
+车身颜色                                                                                 vehicle color   
+self.setWindowTitle('智能交通(IntelligentTraffic)-在线(OnLine)')                          Insystlabs  (Online)
+智能交通卡口事件订阅                                                                      Smart traffic checkpoint event subscription
+
+订阅成功(Subscribe success)                                                              SUBSCRIBE SUCCESSFUL
+
+取消订阅                                                                                 unsubscribe 
+车牌号                                                                                   Number plate
+item2 = QTableWidgetItem('交通路口事件(Traffic junction event)')                         traffic intersection incident
+
+实现断线回调函数功能                                                                      Realize disconnection callback function      
+实现断线重连回调函数功能                                                                  Realize disconnection reconnection callback function
